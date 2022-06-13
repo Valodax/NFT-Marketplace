@@ -125,7 +125,7 @@ export default function NFTBox({ price, nftAddress, tokenId, marketplaceAddress,
                                 <div className="flex flex-col items-end gap-2">
                                     <div className="text-base">TokenID: {tokenId}</div>
                                     <div className="italic text-sm">
-                                        Owned by {formattedSellerAddress}
+                                        Current Owner: {formattedSellerAddress}
                                     </div>
                                     <Image
                                         loader={() => imageURI}
