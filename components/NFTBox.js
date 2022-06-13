@@ -95,8 +95,8 @@ export default function NFTBox({ price, nftAddress, tokenId, marketplaceAddress,
     const handleBuyItemSuccess = () => {
         dispatch({
             type: "success",
-            message: `You have just bought ${tokenName}`,
-            title: "Item Bought",
+            message: `You have successfully bought ${tokenName}!`,
+            title: "Success!",
             position: "topR",
         })
     }
